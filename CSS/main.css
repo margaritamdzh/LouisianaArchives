@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Gotham", sans-serif;
+    src: url(/fonts/GothamBook.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Gotham", sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.navOne {
+    padding: 1em 3em;
+    background-color: #F3F3F3;
+    
+}
+
+.languages {
+    display: flex;
+    font-size: 20px;
+}
+
+.danish:hover, .english:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.danish {
+    margin-right: 1em;
+}
